@@ -1,0 +1,5 @@
+{
+  "name": "Retro 8-Bit Synth",
+  "description": "Máy tổng hợp âm thanh 8-bit chạy trên trình duyệt. Tạo và tải xuống các hiệu ứng âm thanh game cổ điển như Pew Pew, Jump, Coin.",
+  "requestFramePermissions": []
+}
