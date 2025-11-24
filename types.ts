@@ -19,6 +19,13 @@ export interface SynthParams {
   frequencySlide: boolean; // Toggle sliding
 }
 
+export interface Preset {
+  id: string;
+  label: string;
+  params: SynthParams;
+  isSystem?: boolean; // Để phân biệt preset hệ thống và custom
+}
+
 export const DEFAULT_PARAMS: SynthParams = {
   waveType: WaveType.SQUARE,
   startFrequency: 440,

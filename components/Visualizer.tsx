@@ -3,7 +3,7 @@ import { synthEngine } from '../services/synthEngine';
 
 const Visualizer: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number | null>(null);
 
   const draw = () => {
     const canvas = canvasRef.current;
